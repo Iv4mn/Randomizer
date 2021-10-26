@@ -4,8 +4,8 @@ function random() {
 	let userAnswer = prompt("Dime un número del 0 al 10.")
 
 	if (userAnswer == randomNumber) {
-		alert("Le atinaste perro, sí era el " + userAnswer);
+		alert("Felicidades, sí era el " + userAnswer);
 	} 
 
-	else {alert("No le atinaste mamahuevazo, era el " + randomNumber)}
+	else {alert("Error, el numero correcto era el " + randomNumber)}
 }
